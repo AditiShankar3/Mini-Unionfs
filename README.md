@@ -118,7 +118,7 @@ make test
 
 ## Project Structure
 
-\`\`\`
+```
 mini_unionfs/
 ├── mini_unionfs.c    # final combined FUSE implementation
 ├── memA.c            # Member A: resolve_path, copy_up, getattr, readdir
@@ -127,4 +127,4 @@ mini_unionfs/
 ├── test_unionfs.sh   # automated test suite (all 3 features)
 ├── test_memB.sh      # Member B unit tests
 └── README.md
-\`\`\`
+```
